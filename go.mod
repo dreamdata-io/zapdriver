@@ -1,4 +1,4 @@
-module go.ajitem.com/zapdriver
+module github.com/dreamdata-io/zapdriver
 
 go 1.17
 
@@ -14,3 +14,5 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
+
+replace go.ajitem.com/zapdriver => github.com/dreamdata-io/zapdriver 1.4.1
